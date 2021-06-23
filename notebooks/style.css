@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Source+Code+Pro:wght@300;400&display=swap');
+ 
+.rendered_html h1,
+.rendered_html h2,
+.rendered_html h3,
+.rendered_html h4 {
+    color: #000099;
+    font-weight: 400;
+}
+
+.rendered_html h1:first-child,
+.rendered_html h2:first-child,
+.rendered_html h3:first-child,
+.rendered_html h4:first-child
+{
+    margin-top: 0;
+}
+
+div.text_cell_render {
+    padding: 0.5em;
+    padding-top: 0;
+}
+                      
+.rendered_html h1 { font-size: 1.50em; }
+.rendered_html h2 { font-size: 1.25em; }
+.rendered_html h3 { font-size: 1.10em; }
+.rendered_html h4 { font-size: 1.00em; }
+
+.rendered_html code {
+    border-radius: 3px;
+    border: 1px solid #999999;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 300;
+    font-size: 85%;
+    
+}
+
+.rendered_html strong {
+    font-weight: 400;
+}
+
+div.input_area {
+    border: 0;
+    border-left: 2px dotted #999999;
+    padding-left: 10px;
+}
+
+div.prompt_container {
+    background-color:#f0f0f0;
+    Font-size: 10pt;
+    min-width: 8em;
+}
+
+div.prompt {
+    background-color:none;
+    padding: 0;
+    min-width: 5.5em;
+    color: black;
+}
+
+div.prompt bdi {
+    background: black;
+    color: white;
+    padding-left: 1.5em;
+    padding-right: .5em;
+}
+
+.container {
+    font-size: 14pt;
+    line-height: 1.35em;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    width:50% !important;
+}
+
+div.output_text {
+  font-size: 10pt;    
+}
+
+div.cell {
+    margin-top: .5em;
+}
+
+div.cell.selected,
+div.cell.selected.jupyter-soft-selected {
+    border-color: #ffffff;
+}
+
+div.cell.selected::before,
+div.cell.selected.jupyter-soft-selected::before {
+    position: absolute;
+    display: block;
+    margin-left: -5px;
+    top: -1px;
+    left: -1px;
+    width: 5px;
+    height: calc(100% + 2px);
+    content: '';
+    background: black;
+}
+
+div.cell::before,
+div.cell.jupyter-soft::before {
+    position: absolute;
+    display: block;
+    margin-left: -5px;
+    top: -1px;
+    left: -1px;
+    width: 5px;
+    height: calc(100% + 2px);
+    content: '';
+    background: #f0f0f0;
+}
+
+.edit_mode div.cell.selected::before {
+    position: absolute;
+    display: block;
+    margin-left: -5px;
+    Top: -1px;
+    left: -1px;
+    width: 5px;
+    height: calc(100% + 2px);
+    content: '';
+    background: black;
+}
+
+.edit_mode div.cell::before {
+    position: absolute;
+    display: block;
+    margin-left: -5px;
+    top: -1px;
+    left: -1px;
+    width: 5px;
+    height: calc(100% + 2px);
+    content: '';
+    background: #f0f0f0;
+}
