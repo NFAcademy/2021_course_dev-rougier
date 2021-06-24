@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Source+Code+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Inconsolata:wght@300;400;500&display=swap');
  
 .rendered_html h1,
 .rendered_html h2,
@@ -29,11 +29,22 @@ div.text_cell_render {
 .rendered_html code {
     border-radius: 3px;
     border: 1px solid #999999;
-    font-family: "Source Code Pro", monospace;
+    font-family: "Inconsolata", monospace;
     font-weight: 300;
     font-size: 85%;
     
 }
+
+pre {
+    font-family: Inconsolata;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.cm-s-ipython span.cm-keyword { font-weight: 500; text-color: "black" !important; }
+* span.cm-variable { font-weight: 500; color:"black"; }
+* span.cm-property { font-weight: 500; color:"black"; }
+
 
 .rendered_html strong {
     font-weight: 400;
@@ -135,3 +146,8 @@ div.cell.jupyter-soft::before {
     content: '';
     background: #f0f0f0;
 }
+
+.edit_mode div.cell.selected {
+    border-color: #ffffff;
+}
+

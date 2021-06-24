@@ -7,7 +7,12 @@ Code is licensed under a [2-Clauses BSD license](https://opensource.org/licenses
 
 ### 1. Introduction ([01-introduction.ipynb](./01-introduction.ipynb))
    
-> In this first lesson, we'll see how to make a figure displaying the sine and cosine functions and play with the different settings such as to improve the display of the figure using matplotlib settings. We'll also manipulate axes, ticks, tick labels, lines, colors and texts.
+> In this introduction, we'll see how to make a figure and play with the different settings such as to improve the rendering. We'll also see how to compose a figure made of several subplots with a moderatly complex layout.
+
+
+### 2. Catalogue ([02-catalogue.ipynb](./02-catalogue.ipynb))
+   
+> In this lesson, we'll review the many different types of plot matplotlib offers and manipulate them, namely, `plot`, `scatter`, `imshow` and `bar` plots.
 
 
      
