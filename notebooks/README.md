@@ -31,6 +31,8 @@ Code is licensed under a [2-Clauses BSD license](https://opensource.org/licenses
 > scale, logit scale) and projections (polar, 3D, geographic). We'll
 > review a few of them in this lesson.
 
+![](../images/03-exercise-1.png)
+
 ### 4. Animation ([04-animation.ipynb](./04-animation.ipynb))
 
 > Animation with matplotlib can be created very easily using the
