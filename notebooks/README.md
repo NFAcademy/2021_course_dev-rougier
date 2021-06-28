@@ -7,18 +7,33 @@ Code is licensed under a [2-Clauses BSD license](https://opensource.org/licenses
 
 ### 1. Introduction ([01-introduction.ipynb](./01-introduction.ipynb))
    
-> In this introduction, we'll see how to make a figure and play with the different settings such as to improve the rendering. We'll also see how to compose a figure made of several subplots with a moderatly complex layout.
+> In this introduction, we'll see how to make a figure and play with
+> the different settings such as to improve the rendering. We'll also
+> see how to compose a figure made of several subplots with a
+> moderatly complex layout.
 
 
 ### 2. Catalogue ([02-catalogue.ipynb](./02-catalogue.ipynb))
    
-> In this lesson, we'll review the many different types of plot matplotlib offers and manipulate them, namely, `plot`, `scatter`, `imshow` and `bar` plots.
+> In this lesson, we'll review the many different types of plot
+> matplotlib offers and manipulate them, namely, `plot`, `scatter`,
+> `imshow` and `bar` plots.
 
-### 3. Scale, projection & transform ([03-scale-projection-transform.ipynb](./03-scale-projection-transform.ipynb))
+### 3. Scale & projection ([03-scale-projection-transform.ipynb](./03-scale-projection-transform.ipynb))
 
-> In this introduction, we'll see how to make a [figure](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html?highlight=figure#matplotlib.pyplot.figure) and play with the different settings such as to improve the rendering. We'll also see how to compose a figure made of several [subplots](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplot.html) with a moderatly complex layout.
+> Until now (lesson 1 & 2), we've been using exclusively linear scales
+> along the x and y axis and Catesian projection. But matplotlib
+> offers the possibility to use different scales (log scale, symlog
+> scale, logit scale) and projections (polar, 3D, geographic). We'll
+> review a few of them in this lesson.
 
+### 4. Animation ([04-animation.ipynb](./04-animation.ipynb))
 
+> Animation with matplotlib can be created very easily using the
+> [animation
+> framework](https://matplotlib.org/stable/api/animation_api.html). Furthermore,
+> and because we are in the jupyter notebook, we can take advantage of
+> its capability. During this lie
      
 
 <!--
