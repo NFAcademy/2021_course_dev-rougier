@@ -19,7 +19,7 @@ Code is licensed under a [2-Clauses BSD license](https://opensource.org/licenses
 > matplotlib offers and manipulate them, namely, `plot`, `scatter`,
 > `imshow` and `bar` plots.
 
-### 3. Scale & projection ([03-scale-projection-transform.ipynb](./03-scale-projection-transform.ipynb))
+### 3. Scale & projection ([03-scale-projection.ipynb](./03-scale-projection.ipynb))
 
 > Until now (lesson 1 & 2), we've been using exclusively linear scales
 > along the x and y axis and Catesian projection. But matplotlib
