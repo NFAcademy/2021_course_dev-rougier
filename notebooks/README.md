@@ -41,6 +41,7 @@ Code is licensed under a [2-Clauses BSD license](https://opensource.org/licenses
 > and because we are in the jupyter notebook, we can take advantage of
 > its capability. During this lie
      
+![](../images/lissajous.gif)
 
 <!--
 # Jupyter notebooks
