@@ -39,7 +39,7 @@ Code is licensed under a [2-Clauses BSD license](https://opensource.org/licenses
 > [animation
 > framework](https://matplotlib.org/stable/api/animation_api.html). Furthermore,
 > and because we are in the jupyter notebook, we can take advantage of
-> its capability. During this lie
+> its capability. During this lesson, we'll show how to create an animation and save it as a movie.
      
 ![](../images/lissajous.gif)
 
